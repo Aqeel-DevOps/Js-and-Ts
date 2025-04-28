@@ -35,6 +35,12 @@ let currentYear : number = 2025;
 
 // console.log(c);
 
-let checker : boolean = currentYear - 2000 > currentYear - 1947;
-console.log(checker); // true
+// let checker : boolean = currentYear - 2000 > currentYear - 1947;
+// console.log(checker); // true
+// let d = y = 25 - 10 - 5;
+// console.log(d , y); // 10 10
 
+let firstName : string = "John";
+let lastName : string = "Doe";
+console.log("hello" + " " + firstName + " " + lastName);
+console.log(`hello my firstName is ${firstName} and last name is ${lastName}`)

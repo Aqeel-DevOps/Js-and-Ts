@@ -25,5 +25,11 @@ var currentYear = 2025;
 // let b : number = 5;
 // let c : boolean = a > b; // true
 // console.log(c);
-var checker = currentYear - 2000 > currentYear - 1947;
-console.log(checker); // true
+// let checker : boolean = currentYear - 2000 > currentYear - 1947;
+// console.log(checker); // true
+// let d = y = 25 - 10 - 5;
+// console.log(d , y); // 10 10
+var firstName = "John";
+var lastName = "Doe";
+console.log("hello" + " " + firstName + " " + lastName);
+console.log("hello my firstName is ".concat(firstName, " and last name is ").concat(lastName));
